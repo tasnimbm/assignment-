@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-04-16T21:15:32.915223",
+  "react": {
+    "mode": "react",
+    "total_questions": 7,
+    "answered": 2,
+    "correct": 2,
+    "FS": 0,
+    "PS": 28.57,
+    "answer_rate": 28.57,
+    "avg_turns": 3.0,
+    "details": [
+      {
+        "q": 1,
+        "question": "What is the malicious IP address referenced multiple times in the script?",
+        "ground_truth": "185.141.25.168",
+        "predicted": "185.141.25.168",
+        "answered": true,
+        "correct": true,
+        "status": "answered",
+        "turns_used": 3
+      },
+      {
+        "q": 1,
+        "question": "What is the malicious IP address referenced multiple times in the script?",
+        "ground_truth": "185.141.25.168",
+        "predicted": "185.141.25.168",
+        "answered": true,
+        "correct": true,
+        "status": "answered",
+        "turns_used": 3
+      },
+      {
+        "q": 2,
+        "question": "The script uses apt-get to retrieve two tools, and uses yum to install them. What is the command line to remove the yum logs afterwards?",
+        "ground_truth": "rm -rf /var/log/yum*",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 2,
+        "question": "The script uses apt-get to retrieve two tools, and uses yum to install them. What is the command line to remove the yum logs afterwards?",
+        "ground_truth": "rm -rf /var/log/yum*",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 3,
+        "question": "A message is created in the file /etc/motd. What are the three first words?",
+        "ground_truth": "You Were Hacked",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 3,
+        "question": "A message is created in the file /etc/motd. What are the three first words?",
+        "ground_truth": "You Were Hacked",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 4,
+        "question": "This message also contains a contact email address to have the system fixed. What is it?",
+        "ground_truth": "nationalsiense@protonmail.com",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 4,
+        "question": "This message also contains a contact email address to have the system fixed. What is it?",
+        "ground_truth": "nationalsiense@protonmail.com",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 5,
+        "question": "When files are encrypted, an unusual file extension is used. What is it?",
+        "ground_truth": ".\u2622",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 5,
+        "question": "When files are encrypted, an unusual file extension is used. What is it?",
+        "ground_truth": ".\u2622",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 6,
+        "question": "There are 5 functions associated with the encryption process that start with 'encrypt'. What are they, in the order they\u2019re actually executed in the script?",
+        "ground_truth": "encrypt_ssh, encrypt_grep_files, encrypt_home, encrypt_root, encrypt_db",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 6,
+        "question": "There are 5 functions associated with the encryption process that start with 'encrypt'. What are they, in the order they\u2019re actually executed in the script?",
+        "ground_truth": "encrypt_ssh, encrypt_grep_files, encrypt_home, encrypt_root, encrypt_db",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 7,
+        "question": "The script will check a text file hosted on the C2 server. What is the full URL of this file?",
+        "ground_truth": "http://185.141.25.168/check_attack/0.txt",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      },
+      {
+        "q": 7,
+        "question": "The script will check a text file hosted on the C2 server. What is the full URL of this file?",
+        "ground_truth": "http://185.141.25.168/check_attack/0.txt",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      }
+    ]
+  },
+  "cot": {
+    "mode": "cot",
+    "total_questions": 7,
+    "answered": 7,
+    "correct": 0,
+    "FS": 0,
+    "PS": 0.0,
+    "answer_rate": 100.0,
+    "avg_turns": 1.14,
+    "details": [
+      {
+        "q": 1,
+        "question": "What is the malicious IP address referenced multiple times in the script?",
+        "ground_truth": "185.141.25.168",
+        "predicted": "192.168.1.100",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 2,
+        "question": "The script uses apt-get to retrieve two tools, and uses yum to install them. What is the command line to remove the yum logs afterwards?",
+        "ground_truth": "rm -rf /var/log/yum*",
+        "predicted": "None",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 2
+      },
+      {
+        "q": 3,
+        "question": "A message is created in the file /etc/motd. What are the three first words?",
+        "ground_truth": "You Were Hacked",
+        "predicted": "Welcome to the server",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 4,
+        "question": "This message also contains a contact email address to have the system fixed. What is it?",
+        "ground_truth": "nationalsiense@protonmail.com",
+        "predicted": "admin@example.com",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 5,
+        "question": "When files are encrypted, an unusual file extension is used. What is it?",
+        "ground_truth": ".\u2622",
+        "predicted": ".locked",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 6,
+        "question": "There are 5 functions associated with the encryption process that start with 'encrypt'. What are they, in the order they\u2019re actually executed in the script?",
+        "ground_truth": "encrypt_ssh, encrypt_grep_files, encrypt_home, encrypt_root, encrypt_db",
+        "predicted": "encrypt_file, encrypt_directory, encrypt_config, encrypt_metadata, encrypt_user_data",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 7,
+        "question": "The script will check a text file hosted on the C2 server. What is the full URL of this file?",
+        "ground_truth": "http://185.141.25.168/check_attack/0.txt",
+        "predicted": "http://192.168.1.100/malware/check.txt",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      }
+    ]
+  },
+  "answers": [
+    "185.141.25.168",
+    "rm -rf /var/log/yum*",
+    "You Were Hacked",
+    "nationalsiense@protonmail.com",
+    ".\u2622",
+    "encrypt_ssh, encrypt_grep_files, encrypt_home, encrypt_root, encrypt_db",
+    "http://185.141.25.168/check_attack/0.txt"
+  ]
+}
