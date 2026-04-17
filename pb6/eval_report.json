@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-04-16T21:21:55.267473",
+  "react": {
+    "mode": "react",
+    "total_questions": 8,
+    "answered": 3,
+    "correct": 2,
+    "FS": 0,
+    "PS": 25.0,
+    "answer_rate": 37.5,
+    "avg_turns": 3.0,
+    "details": [
+      {
+        "q": 1,
+        "question": "What is the operating system of the host from which the network traffic was captured?",
+        "ground_truth": "32-bit Windows 7 Service Pack 1, build 7601",
+        "predicted": "Windows",
+        "answered": true,
+        "correct": true,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 2,
+        "question": "What is the full URL from which the ransomware executable was downloaded?",
+        "ground_truth": "http://10.0.2.15:8000/safecrypt.exe",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 4
+      },
+      {
+        "q": 3,
+        "question": "Name the ransomware executable file?",
+        "ground_truth": "safecrypt.exe",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 4
+      },
+      {
+        "q": 4,
+        "question": "What is the MD5 hash of the ransomware?",
+        "ground_truth": "4a1d88603b1007825a9c6b36d1e5de44",
+        "predicted": "9b15b2b8a3d3d3c2a3a3d3c2a3a3d3c2",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 5,
+        "question": "What is the name of the ransomware?",
+        "ground_truth": "teslacrypt",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 4
+      },
+      {
+        "q": 6,
+        "question": "What is the encryption algorithm used by the ransomware, according to the ransom note?",
+        "ground_truth": "RSA-4096",
+        "predicted": "RSA",
+        "answered": true,
+        "correct": true,
+        "status": "answered",
+        "turns_used": 2
+      },
+      {
+        "q": 7,
+        "question": "What is the domain beginning with 'd' that is related to ransomware traffic?",
+        "ground_truth": "dunyamuzelerimuzesi.com",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 4
+      },
+      {
+        "q": 8,
+        "question": "Decrypt the Tender document and submit the flag",
+        "ground_truth": "BTLO-T3nd3r-Fl@g",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 4
+      }
+    ]
+  },
+  "cot": {
+    "mode": "cot",
+    "total_questions": 8,
+    "answered": 5,
+    "correct": 0,
+    "FS": 0,
+    "PS": 0.0,
+    "answer_rate": 62.5,
+    "avg_turns": 1.38,
+    "details": [
+      {
+        "q": 1,
+        "question": "What is the operating system of the host from which the network traffic was captured?",
+        "ground_truth": "32-bit Windows 7 Service Pack 1, build 7601",
+        "predicted": "The operating system of the host from which the network traffic was captured is unknown.",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 2
+      },
+      {
+        "q": 2,
+        "question": "What is the full URL from which the ransomware executable was downloaded?",
+        "ground_truth": "http://10.0.2.15:8000/safecrypt.exe",
+        "predicted": "http://192.168.1.100/blackhat.exe",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 3,
+        "question": "Name the ransomware executable file?",
+        "ground_truth": "safecrypt.exe",
+        "predicted": "Encryptor.exe",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 4,
+        "question": "What is the MD5 hash of the ransomware?",
+        "ground_truth": "4a1d88603b1007825a9c6b36d1e5de44",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 5,
+        "question": "What is the name of the ransomware?",
+        "ground_truth": "teslacrypt",
+        "predicted": "BTLO",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 6,
+        "question": "What is the encryption algorithm used by the ransomware, according to the ransom note?",
+        "ground_truth": "RSA-4096",
+        "predicted": "The provided ransom notes do not explicitly mention a specific encryption algorithm. They only state that the files are encrypted and provide instructions for recovery.",
+        "answered": true,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 7,
+        "question": "What is the domain beginning with 'd' that is related to ransomware traffic?",
+        "ground_truth": "dunyamuzelerimuzesi.com",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "answered",
+        "turns_used": 1
+      },
+      {
+        "q": 8,
+        "question": "Decrypt the Tender document and submit the flag",
+        "ground_truth": "BTLO-T3nd3r-Fl@g",
+        "predicted": "",
+        "answered": false,
+        "correct": false,
+        "status": "max_attempts_reached",
+        "turns_used": 3
+      }
+    ]
+  },
+  "answers": [
+    "32-bit Windows 7 Service Pack 1, build 7601",
+    "http://10.0.2.15:8000/safecrypt.exe",
+    "safecrypt.exe",
+    "4a1d88603b1007825a9c6b36d1e5de44",
+    "teslacrypt",
+    "RSA-4096",
+    "dunyamuzelerimuzesi.com",
+    "BTLO-T3nd3r-Fl@g"
+  ]
+}
